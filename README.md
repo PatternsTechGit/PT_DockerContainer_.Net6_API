@@ -180,7 +180,7 @@ http://localhost:8000/api/Transaction/GetLast12MonthBalances/
 ```powershell
     docker pull {user-name}/{Image-name}
 ```
-- You can also directly `push` and `pull` rom docker desktop app
+- You can also directly `push` and `pull` from docker desktop app
 ![](/After/assets/images/10.jpg)
 
 ------
