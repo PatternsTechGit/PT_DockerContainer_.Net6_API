@@ -108,7 +108,7 @@ A Docker image is a read-only template that contains a set of instructions for c
 
 - To create docker image use this command 
     ```powershell
-    docker build -t BBBank_API_image -f Dockerfile .
+    docker build -t bbbank_api_image -f Dockerfile .
     ```
     *Note: there is a period ' . ' with a space after Dockerfile, it is not by accident and it is supposed to be like this
 
@@ -147,7 +147,7 @@ Containers are packages of software that contain all of the necessary elements t
  Here you can see that our container is running while using the image and port we have created. 
 You can also see running containers from the docker desktop as well.
 
-- Finally you can use this URL to see you API is running on port 8080. 
+- Finally you can use this URL to see you API is running on port 8000. 
 http://localhost:8000/api/Transaction/GetLast12MonthBalances/
 ![](/After/assets/images/6.jpg)
 
@@ -180,7 +180,7 @@ http://localhost:8000/api/Transaction/GetLast12MonthBalances/
 ```powershell
     docker pull {user-name}/{Image-name}
 ```
-- You can also directly `push` and `pull` rom docker desktop app
+- You can also directly `push` and `pull` from docker desktop app
 ![](/After/assets/images/10.jpg)
 
 ------
