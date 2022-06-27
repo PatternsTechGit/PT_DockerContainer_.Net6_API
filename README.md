@@ -1,3 +1,4 @@
+![](/After/assets/images/docker api.jpg)
 # Containerize *.Net6* Web API using **Docker** 
 
 ### **What does containerization mean?**
